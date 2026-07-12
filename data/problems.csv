@@ -1,0 +1,130 @@
+title,difficulty,description
+Two Sum,Easy,Find two numbers that add up to the target.
+Palindrome Number,Easy,Check whether a number is a palindrome.
+Roman to Integer,Easy,Convert a Roman numeral to an integer.
+Longest Common Prefix,Easy,Find the longest common prefix.
+Valid Parentheses,Easy,Check if brackets are balanced.
+Merge Two Sorted Lists,Easy,Merge two sorted linked lists.
+Remove Duplicates from Sorted Array,Easy,Remove duplicates from a sorted array.
+Binary Search,Easy,Search in a sorted array.
+Maximum Subarray,Easy,Find the maximum sum subarray.
+Climbing Stairs,Easy,Count the number of ways to climb stairs.
+Word Ladder,Hard,Find the shortest transformation sequence between two words.
+Word Ladder II,Hard,Find all shortest transformation sequences.
+Surrounded Regions,Medium,Capture all surrounded regions in a board.
+Palindrome Partitioning,Medium,Partition a string into palindromes.
+Palindrome Partitioning II,Hard,Find the minimum cuts for palindrome partitioning.
+Clone Graph,Medium,Create a deep copy of a connected graph.
+Gas Station,Medium,Find the starting gas station to complete a circuit.
+Candy,Hard,Distribute candies according to ratings.
+Single Number,Easy,Find the element that appears only once.
+Single Number II,Medium,Find the unique element when others appear three times.
+Copy List with Random Pointer,Medium,Deep copy a linked list with random pointers.
+Word Break,Medium,Determine if a string can be segmented into dictionary words.
+Word Break II,Hard,Return all possible sentences from dictionary words.
+Linked List Cycle,Easy,Detect whether a linked list has a cycle.
+Linked List Cycle II,Medium,Find the node where the cycle begins.
+Reorder List,Medium,Reorder a linked list in alternating order.
+Binary Tree Preorder Traversal,Easy,Perform preorder traversal of a binary tree.
+Binary Tree Postorder Traversal,Easy,Perform postorder traversal of a binary tree.
+LRU Cache,Medium,Design a least recently used cache.
+Insertion Sort List,Medium,Sort a linked list using insertion sort.
+Sort List,Medium,Sort a linked list in O(n log n) time.
+Max Points on a Line,Hard,Find the maximum number of points on a straight line.
+Evaluate Reverse Polish Notation,Medium,Evaluate an expression in Reverse Polish Notation.
+Reverse Words in a String,Medium,Reverse the order of words in a sentence.
+Maximum Product Subarray,Medium,Find the contiguous subarray with maximum product.
+Find Minimum in Rotated Sorted Array,Medium,Find the minimum element in a rotated sorted array.
+Find Minimum in Rotated Sorted Array II,Hard,Find the minimum element with duplicates.
+Min Stack,Medium,Design a stack supporting minimum retrieval.
+Intersection of Two Linked Lists,Easy,Find the intersection node of two linked lists.
+One Edit Distance,Medium,Check whether two strings are one edit apart.
+Peak Element,Medium,Find a peak element in an array.
+Missing Ranges,Easy,Find missing ranges in a sorted array.
+Maximum Gap,Hard,Find the maximum difference between successive elements.
+Compare Version Numbers,Medium,Compare two software version numbers.
+Fraction to Recurring Decimal,Medium,Convert a fraction to recurring decimal representation.
+Two Sum II - Input Array Is Sorted,Medium,Solve Two Sum for a sorted array.
+Excel Sheet Column Title,Easy,Convert a column number to an Excel title.
+Excel Sheet Column Number,Easy,Convert an Excel title to a column number.
+Majority Element,Easy,Find the majority element in an array.
+Factorial Trailing Zeroes,Medium,Count trailing zeroes in a factorial.
+Dungeon Game,Hard,Calculate the knight's minimum initial health.
+Largest Number,Medium,Arrange numbers to form the largest number.
+Repeated DNA Sequences,Medium,Find repeated DNA sequences.
+Best Time to Buy and Sell Stock IV,Hard,Maximize profit with at most k transactions.
+Rotate Array,Medium,Rotate an array by k positions.
+Reverse Bits,Easy,Reverse bits of a 32-bit integer.
+Number of 1 Bits,Easy,Count the number of set bits.
+House Robber,Medium,Find the maximum amount that can be robbed.
+House Robber II,Medium,Find the maximum amount that can be robbed in a circular street.
+Binary Tree Right Side View,Medium,Return the right side view of a binary tree.
+Number of Islands,Medium,Count the number of islands in a 2D grid.
+Happy Number,Easy,Determine whether a number is happy.
+Remove Linked List Elements,Easy,Remove all nodes with a given value.
+Count Primes,Medium,Count all prime numbers less than n.
+Isomorphic Strings,Easy,Determine whether two strings are isomorphic.
+Reverse Linked List,Easy,Reverse a singly linked list.
+Course Schedule,Medium,Determine if all courses can be finished.
+Course Schedule II,Medium,Return a valid order to finish all courses.
+Implement Trie,Medium,Implement a prefix tree.
+Word Dictionary,Medium,Design a word dictionary with wildcard search.
+Word Search II,Hard,Find all dictionary words in a board.
+House Robber III,Medium,Rob houses arranged as a binary tree.
+Kth Largest Element in an Array,Medium,Find the kth largest element.
+Contains Duplicate,Easy,Check if an array contains duplicates.
+Contains Duplicate II,Easy,Check nearby duplicates within distance k.
+Contains Duplicate III,Hard,Check nearby almost duplicates.
+The Skyline Problem,Hard,Compute the skyline formed by buildings.
+Basic Calculator,Hard,Evaluate a basic arithmetic expression.
+Basic Calculator II,Medium,Evaluate expressions with multiplication and division.
+Invert Binary Tree,Easy,Invert a binary tree.
+Summary Ranges,Easy,Summarize consecutive ranges in a sorted array.
+Majority Element II,Medium,Find all elements appearing more than n/3 times.
+Kth Smallest Element in a BST,Medium,Find the kth smallest node in a BST.
+Power of Two,Easy,Determine whether a number is a power of two.
+Palindrome Linked List,Easy,Check whether a linked list is a palindrome.
+Lowest Common Ancestor of a Binary Search Tree,Medium,Find the lowest common ancestor in a BST.
+Lowest Common Ancestor of a Binary Tree,Medium,Find the lowest common ancestor in a binary tree.
+Delete Node in a Linked List,Easy,Delete a node from a linked list.
+Product of Array Except Self,Medium,Return product except self for every index.
+Sliding Window Maximum,Hard,Find the maximum in every sliding window.
+Search a 2D Matrix II,Medium,Search a target in a sorted matrix.
+Different Ways to Add Parentheses,Medium,Compute all possible expression results.
+Valid Anagram,Easy,Determine whether two strings are anagrams.
+Binary Tree Paths,Easy,Return all root-to-leaf paths.
+Add Digits,Easy,Repeatedly add digits until one digit remains.
+Single Number III,Medium,Find the two unique numbers in an array.
+Ugly Number,Easy,Determine whether a number is ugly.
+Ugly Number II,Medium,Find the nth ugly number.
+Missing Number,Easy,Find the missing number in an array.
+Integer to English Words,Hard,Convert an integer to English words.
+H-Index,Medium,Calculate the researcher's H-index.
+First Bad Version,Easy,Find the first bad version using API calls.
+Perfect Squares,Medium,Find the least number of perfect squares.
+Move Zeroes,Easy,Move all zeroes to the end of the array.
+Find the Duplicate Number,Medium,Find the duplicate number in an array.
+Game of Life,Medium,Simulate one iteration of Conway's Game of Life.
+Word Pattern,Easy,Check whether a string follows a pattern.
+Nim Game,Easy,Determine whether you can win the Nim game.
+Bulls and Cows,Medium,Calculate bulls and cows for a guessing game.
+Longest Increasing Subsequence,Medium,Find the length of the longest increasing subsequence.
+Minimum Size Subarray Sum,Medium,Find the minimum length subarray whose sum is at least the target.
+Combination Sum III,Medium,Find all valid combinations of k numbers that sum to n.
+Contains Nearby Duplicate,Easy,Check whether duplicate values exist within a given distance.
+Count Complete Tree Nodes,Medium,Count the number of nodes in a complete binary tree.
+Rectangle Area,Medium,Compute the total area covered by two rectangles.
+Implement Queue using Stacks,Easy,Implement a queue using two stacks.
+Implement Stack using Queues,Easy,Implement a stack using two queues.
+Invert String Case,Easy,Convert uppercase letters to lowercase and vice versa.
+Longest Consecutive Sequence,Hard,Find the length of the longest consecutive sequence.
+Find Median from Data Stream,Hard,Maintain a stream of numbers and return the median.
+Shortest Palindrome,Hard,Find the shortest palindrome by adding characters in front.
+Kth Largest Element in a Stream,Easy,Return the kth largest element after each insertion.
+Design Circular Queue,Medium,Implement a circular queue with fixed capacity.
+Asteroid Collision,Medium,Simulate asteroid collisions and return the final state.
+Daily Temperatures,Medium,Find how many days until a warmer temperature.
+Online Stock Span,Medium,Calculate the stock span for each incoming price.
+Minimum Cost to Connect Cities,Hard,Find the minimum cost to connect all cities.
+Balanced Brackets Checker,Easy,Determine whether an expression has balanced brackets.
+Matrix Border Rotation,Medium,Rotate only the border of a matrix clockwise.

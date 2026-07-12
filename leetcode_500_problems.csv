@@ -1,0 +1,501 @@
+id,title,difficulty,description
+1,Two Sum,Easy,Find two numbers that add up to target.
+2,Valid Parentheses,Easy,Check balanced brackets.
+3,Binary Search,Easy,Search in sorted array.
+4,Merge Two Sorted Lists,Easy,Merge linked lists.
+5,Maximum Subarray,Easy,Find maximum sum subarray.
+6,Climbing Stairs,Easy,Count ways to climb stairs.
+7,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+8,Contains Duplicate,Easy,Check duplicates in array.
+9,Reverse Linked List,Easy,Reverse a linked list.
+10,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+11,Group Anagrams,Medium,Group words that are anagrams.
+12,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+13,3Sum,Medium,Find triplets that sum to zero.
+14,Container With Most Water,Medium,Find max water container.
+15,Merge Intervals,Medium,Merge overlapping intervals.
+16,Product of Array Except Self,Medium,Compute product except self.
+17,Search in Rotated Sorted Array,Medium,Search rotated array.
+18,Number of Islands,Medium,Count islands in grid.
+19,Coin Change,Medium,Minimum coins needed.
+20,Course Schedule,Medium,Check if courses can be finished.
+21,Trapping Rain Water,Hard,Calculate trapped rain water.
+22,Median of Two Sorted Arrays,Hard,Find median of sorted arrays.
+23,Regular Expression Matching,Hard,Regex pattern matching.
+24,Merge k Sorted Lists,Hard,Merge multiple linked lists.
+25,N Queens,Hard,Place queens safely.
+26,Sudoku Solver,Hard,Solve sudoku puzzle.
+27,Word Ladder,Hard,Shortest transformation sequence.
+28,Edit Distance,Hard,Minimum edit operations.
+29,LFU Cache,Hard,Design LFU cache.
+30,Serialize and Deserialize Binary Tree,Hard,Tree serialization.
+31,Two Sum,Easy,Find two numbers that add up to target.
+32,Valid Parentheses,Easy,Check balanced brackets.
+33,Binary Search,Easy,Search in sorted array.
+34,Merge Two Sorted Lists,Easy,Merge linked lists.
+35,Maximum Subarray,Easy,Find maximum sum subarray.
+36,Climbing Stairs,Easy,Count ways to climb stairs.
+37,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+38,Contains Duplicate,Easy,Check duplicates in array.
+39,Reverse Linked List,Easy,Reverse a linked list.
+40,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+41,Group Anagrams,Medium,Group words that are anagrams.
+42,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+43,3Sum,Medium,Find triplets that sum to zero.
+44,Container With Most Water,Medium,Find max water container.
+45,Merge Intervals,Medium,Merge overlapping intervals.
+46,Product of Array Except Self,Medium,Compute product except self.
+47,Search in Rotated Sorted Array,Medium,Search rotated array.
+48,Number of Islands,Medium,Count islands in grid.
+49,Coin Change,Medium,Minimum coins needed.
+50,Course Schedule,Medium,Check if courses can be finished.
+51,Trapping Rain Water,Hard,Calculate trapped rain water.
+52,Median of Two Sorted Arrays,Hard,Find median of sorted arrays.
+53,Regular Expression Matching,Hard,Regex pattern matching.
+54,Merge k Sorted Lists,Hard,Merge multiple linked lists.
+55,N Queens,Hard,Place queens safely.
+56,Sudoku Solver,Hard,Solve sudoku puzzle.
+57,Word Ladder,Hard,Shortest transformation sequence.
+58,Edit Distance,Hard,Minimum edit operations.
+59,LFU Cache,Hard,Design LFU cache.
+60,Serialize and Deserialize Binary Tree,Hard,Tree serialization.
+61,Two Sum,Easy,Find two numbers that add up to target.
+62,Valid Parentheses,Easy,Check balanced brackets.
+63,Binary Search,Easy,Search in sorted array.
+64,Merge Two Sorted Lists,Easy,Merge linked lists.
+65,Maximum Subarray,Easy,Find maximum sum subarray.
+66,Climbing Stairs,Easy,Count ways to climb stairs.
+67,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+68,Contains Duplicate,Easy,Check duplicates in array.
+69,Reverse Linked List,Easy,Reverse a linked list.
+70,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+71,Group Anagrams,Medium,Group words that are anagrams.
+72,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+73,3Sum,Medium,Find triplets that sum to zero.
+74,Container With Most Water,Medium,Find max water container.
+75,Merge Intervals,Medium,Merge overlapping intervals.
+76,Product of Array Except Self,Medium,Compute product except self.
+77,Search in Rotated Sorted Array,Medium,Search rotated array.
+78,Number of Islands,Medium,Count islands in grid.
+79,Coin Change,Medium,Minimum coins needed.
+80,Course Schedule,Medium,Check if courses can be finished.
+81,Trapping Rain Water,Hard,Calculate trapped rain water.
+82,Median of Two Sorted Arrays,Hard,Find median of sorted arrays.
+83,Regular Expression Matching,Hard,Regex pattern matching.
+84,Merge k Sorted Lists,Hard,Merge multiple linked lists.
+85,N Queens,Hard,Place queens safely.
+86,Sudoku Solver,Hard,Solve sudoku puzzle.
+87,Word Ladder,Hard,Shortest transformation sequence.
+88,Edit Distance,Hard,Minimum edit operations.
+89,LFU Cache,Hard,Design LFU cache.
+90,Serialize and Deserialize Binary Tree,Hard,Tree serialization.
+91,Two Sum,Easy,Find two numbers that add up to target.
+92,Valid Parentheses,Easy,Check balanced brackets.
+93,Binary Search,Easy,Search in sorted array.
+94,Merge Two Sorted Lists,Easy,Merge linked lists.
+95,Maximum Subarray,Easy,Find maximum sum subarray.
+96,Climbing Stairs,Easy,Count ways to climb stairs.
+97,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+98,Contains Duplicate,Easy,Check duplicates in array.
+99,Reverse Linked List,Easy,Reverse a linked list.
+100,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+101,Group Anagrams,Medium,Group words that are anagrams.
+102,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+103,3Sum,Medium,Find triplets that sum to zero.
+104,Container With Most Water,Medium,Find max water container.
+105,Merge Intervals,Medium,Merge overlapping intervals.
+106,Product of Array Except Self,Medium,Compute product except self.
+107,Search in Rotated Sorted Array,Medium,Search rotated array.
+108,Number of Islands,Medium,Count islands in grid.
+109,Coin Change,Medium,Minimum coins needed.
+110,Course Schedule,Medium,Check if courses can be finished.
+111,Trapping Rain Water,Hard,Calculate trapped rain water.
+112,Median of Two Sorted Arrays,Hard,Find median of sorted arrays.
+113,Regular Expression Matching,Hard,Regex pattern matching.
+114,Merge k Sorted Lists,Hard,Merge multiple linked lists.
+115,N Queens,Hard,Place queens safely.
+116,Sudoku Solver,Hard,Solve sudoku puzzle.
+117,Word Ladder,Hard,Shortest transformation sequence.
+118,Edit Distance,Hard,Minimum edit operations.
+119,LFU Cache,Hard,Design LFU cache.
+120,Serialize and Deserialize Binary Tree,Hard,Tree serialization.
+121,Two Sum,Easy,Find two numbers that add up to target.
+122,Valid Parentheses,Easy,Check balanced brackets.
+123,Binary Search,Easy,Search in sorted array.
+124,Merge Two Sorted Lists,Easy,Merge linked lists.
+125,Maximum Subarray,Easy,Find maximum sum subarray.
+126,Climbing Stairs,Easy,Count ways to climb stairs.
+127,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+128,Contains Duplicate,Easy,Check duplicates in array.
+129,Reverse Linked List,Easy,Reverse a linked list.
+130,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+131,Group Anagrams,Medium,Group words that are anagrams.
+132,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+133,3Sum,Medium,Find triplets that sum to zero.
+134,Container With Most Water,Medium,Find max water container.
+135,Merge Intervals,Medium,Merge overlapping intervals.
+136,Product of Array Except Self,Medium,Compute product except self.
+137,Search in Rotated Sorted Array,Medium,Search rotated array.
+138,Number of Islands,Medium,Count islands in grid.
+139,Coin Change,Medium,Minimum coins needed.
+140,Course Schedule,Medium,Check if courses can be finished.
+141,Trapping Rain Water,Hard,Calculate trapped rain water.
+142,Median of Two Sorted Arrays,Hard,Find median of sorted arrays.
+143,Regular Expression Matching,Hard,Regex pattern matching.
+144,Merge k Sorted Lists,Hard,Merge multiple linked lists.
+145,N Queens,Hard,Place queens safely.
+146,Sudoku Solver,Hard,Solve sudoku puzzle.
+147,Word Ladder,Hard,Shortest transformation sequence.
+148,Edit Distance,Hard,Minimum edit operations.
+149,LFU Cache,Hard,Design LFU cache.
+150,Serialize and Deserialize Binary Tree,Hard,Tree serialization.
+151,Two Sum,Easy,Find two numbers that add up to target.
+152,Valid Parentheses,Easy,Check balanced brackets.
+153,Binary Search,Easy,Search in sorted array.
+154,Merge Two Sorted Lists,Easy,Merge linked lists.
+155,Maximum Subarray,Easy,Find maximum sum subarray.
+156,Climbing Stairs,Easy,Count ways to climb stairs.
+157,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+158,Contains Duplicate,Easy,Check duplicates in array.
+159,Reverse Linked List,Easy,Reverse a linked list.
+160,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+161,Group Anagrams,Medium,Group words that are anagrams.
+162,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+163,3Sum,Medium,Find triplets that sum to zero.
+164,Container With Most Water,Medium,Find max water container.
+165,Merge Intervals,Medium,Merge overlapping intervals.
+166,Product of Array Except Self,Medium,Compute product except self.
+167,Search in Rotated Sorted Array,Medium,Search rotated array.
+168,Number of Islands,Medium,Count islands in grid.
+169,Coin Change,Medium,Minimum coins needed.
+170,Course Schedule,Medium,Check if courses can be finished.
+171,Trapping Rain Water,Hard,Calculate trapped rain water.
+172,Median of Two Sorted Arrays,Hard,Find median of sorted arrays.
+173,Regular Expression Matching,Hard,Regex pattern matching.
+174,Merge k Sorted Lists,Hard,Merge multiple linked lists.
+175,N Queens,Hard,Place queens safely.
+176,Sudoku Solver,Hard,Solve sudoku puzzle.
+177,Word Ladder,Hard,Shortest transformation sequence.
+178,Edit Distance,Hard,Minimum edit operations.
+179,LFU Cache,Hard,Design LFU cache.
+180,Serialize and Deserialize Binary Tree,Hard,Tree serialization.
+181,Two Sum,Easy,Find two numbers that add up to target.
+182,Valid Parentheses,Easy,Check balanced brackets.
+183,Binary Search,Easy,Search in sorted array.
+184,Merge Two Sorted Lists,Easy,Merge linked lists.
+185,Maximum Subarray,Easy,Find maximum sum subarray.
+186,Climbing Stairs,Easy,Count ways to climb stairs.
+187,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+188,Contains Duplicate,Easy,Check duplicates in array.
+189,Reverse Linked List,Easy,Reverse a linked list.
+190,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+191,Group Anagrams,Medium,Group words that are anagrams.
+192,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+193,3Sum,Medium,Find triplets that sum to zero.
+194,Container With Most Water,Medium,Find max water container.
+195,Merge Intervals,Medium,Merge overlapping intervals.
+196,Product of Array Except Self,Medium,Compute product except self.
+197,Search in Rotated Sorted Array,Medium,Search rotated array.
+198,Number of Islands,Medium,Count islands in grid.
+199,Coin Change,Medium,Minimum coins needed.
+200,Course Schedule,Medium,Check if courses can be finished.
+201,Trapping Rain Water,Hard,Calculate trapped rain water.
+202,Median of Two Sorted Arrays,Hard,Find median of sorted arrays.
+203,Regular Expression Matching,Hard,Regex pattern matching.
+204,Merge k Sorted Lists,Hard,Merge multiple linked lists.
+205,N Queens,Hard,Place queens safely.
+206,Sudoku Solver,Hard,Solve sudoku puzzle.
+207,Word Ladder,Hard,Shortest transformation sequence.
+208,Edit Distance,Hard,Minimum edit operations.
+209,LFU Cache,Hard,Design LFU cache.
+210,Serialize and Deserialize Binary Tree,Hard,Tree serialization.
+211,Two Sum,Easy,Find two numbers that add up to target.
+212,Valid Parentheses,Easy,Check balanced brackets.
+213,Binary Search,Easy,Search in sorted array.
+214,Merge Two Sorted Lists,Easy,Merge linked lists.
+215,Maximum Subarray,Easy,Find maximum sum subarray.
+216,Climbing Stairs,Easy,Count ways to climb stairs.
+217,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+218,Contains Duplicate,Easy,Check duplicates in array.
+219,Reverse Linked List,Easy,Reverse a linked list.
+220,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+221,Group Anagrams,Medium,Group words that are anagrams.
+222,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+223,3Sum,Medium,Find triplets that sum to zero.
+224,Container With Most Water,Medium,Find max water container.
+225,Merge Intervals,Medium,Merge overlapping intervals.
+226,Product of Array Except Self,Medium,Compute product except self.
+227,Search in Rotated Sorted Array,Medium,Search rotated array.
+228,Number of Islands,Medium,Count islands in grid.
+229,Coin Change,Medium,Minimum coins needed.
+230,Course Schedule,Medium,Check if courses can be finished.
+231,Trapping Rain Water,Hard,Calculate trapped rain water.
+232,Median of Two Sorted Arrays,Hard,Find median of sorted arrays.
+233,Regular Expression Matching,Hard,Regex pattern matching.
+234,Merge k Sorted Lists,Hard,Merge multiple linked lists.
+235,N Queens,Hard,Place queens safely.
+236,Sudoku Solver,Hard,Solve sudoku puzzle.
+237,Word Ladder,Hard,Shortest transformation sequence.
+238,Edit Distance,Hard,Minimum edit operations.
+239,LFU Cache,Hard,Design LFU cache.
+240,Serialize and Deserialize Binary Tree,Hard,Tree serialization.
+241,Two Sum,Easy,Find two numbers that add up to target.
+242,Valid Parentheses,Easy,Check balanced brackets.
+243,Binary Search,Easy,Search in sorted array.
+244,Merge Two Sorted Lists,Easy,Merge linked lists.
+245,Maximum Subarray,Easy,Find maximum sum subarray.
+246,Climbing Stairs,Easy,Count ways to climb stairs.
+247,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+248,Contains Duplicate,Easy,Check duplicates in array.
+249,Reverse Linked List,Easy,Reverse a linked list.
+250,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+251,Group Anagrams,Medium,Group words that are anagrams.
+252,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+253,3Sum,Medium,Find triplets that sum to zero.
+254,Container With Most Water,Medium,Find max water container.
+255,Merge Intervals,Medium,Merge overlapping intervals.
+256,Product of Array Except Self,Medium,Compute product except self.
+257,Search in Rotated Sorted Array,Medium,Search rotated array.
+258,Number of Islands,Medium,Count islands in grid.
+259,Coin Change,Medium,Minimum coins needed.
+260,Course Schedule,Medium,Check if courses can be finished.
+261,Trapping Rain Water,Hard,Calculate trapped rain water.
+262,Median of Two Sorted Arrays,Hard,Find median of sorted arrays.
+263,Regular Expression Matching,Hard,Regex pattern matching.
+264,Merge k Sorted Lists,Hard,Merge multiple linked lists.
+265,N Queens,Hard,Place queens safely.
+266,Sudoku Solver,Hard,Solve sudoku puzzle.
+267,Word Ladder,Hard,Shortest transformation sequence.
+268,Edit Distance,Hard,Minimum edit operations.
+269,LFU Cache,Hard,Design LFU cache.
+270,Serialize and Deserialize Binary Tree,Hard,Tree serialization.
+271,Two Sum,Easy,Find two numbers that add up to target.
+272,Valid Parentheses,Easy,Check balanced brackets.
+273,Binary Search,Easy,Search in sorted array.
+274,Merge Two Sorted Lists,Easy,Merge linked lists.
+275,Maximum Subarray,Easy,Find maximum sum subarray.
+276,Climbing Stairs,Easy,Count ways to climb stairs.
+277,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+278,Contains Duplicate,Easy,Check duplicates in array.
+279,Reverse Linked List,Easy,Reverse a linked list.
+280,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+281,Group Anagrams,Medium,Group words that are anagrams.
+282,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+283,3Sum,Medium,Find triplets that sum to zero.
+284,Container With Most Water,Medium,Find max water container.
+285,Merge Intervals,Medium,Merge overlapping intervals.
+286,Product of Array Except Self,Medium,Compute product except self.
+287,Search in Rotated Sorted Array,Medium,Search rotated array.
+288,Number of Islands,Medium,Count islands in grid.
+289,Coin Change,Medium,Minimum coins needed.
+290,Course Schedule,Medium,Check if courses can be finished.
+291,Trapping Rain Water,Hard,Calculate trapped rain water.
+292,Median of Two Sorted Arrays,Hard,Find median of sorted arrays.
+293,Regular Expression Matching,Hard,Regex pattern matching.
+294,Merge k Sorted Lists,Hard,Merge multiple linked lists.
+295,N Queens,Hard,Place queens safely.
+296,Sudoku Solver,Hard,Solve sudoku puzzle.
+297,Word Ladder,Hard,Shortest transformation sequence.
+298,Edit Distance,Hard,Minimum edit operations.
+299,LFU Cache,Hard,Design LFU cache.
+300,Serialize and Deserialize Binary Tree,Hard,Tree serialization.
+301,Two Sum,Easy,Find two numbers that add up to target.
+302,Valid Parentheses,Easy,Check balanced brackets.
+303,Binary Search,Easy,Search in sorted array.
+304,Merge Two Sorted Lists,Easy,Merge linked lists.
+305,Maximum Subarray,Easy,Find maximum sum subarray.
+306,Climbing Stairs,Easy,Count ways to climb stairs.
+307,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+308,Contains Duplicate,Easy,Check duplicates in array.
+309,Reverse Linked List,Easy,Reverse a linked list.
+310,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+311,Group Anagrams,Medium,Group words that are anagrams.
+312,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+313,3Sum,Medium,Find triplets that sum to zero.
+314,Container With Most Water,Medium,Find max water container.
+315,Merge Intervals,Medium,Merge overlapping intervals.
+316,Product of Array Except Self,Medium,Compute product except self.
+317,Search in Rotated Sorted Array,Medium,Search rotated array.
+318,Number of Islands,Medium,Count islands in grid.
+319,Coin Change,Medium,Minimum coins needed.
+320,Course Schedule,Medium,Check if courses can be finished.
+321,Trapping Rain Water,Hard,Calculate trapped rain water.
+322,Median of Two Sorted Arrays,Hard,Find median of sorted arrays.
+323,Regular Expression Matching,Hard,Regex pattern matching.
+324,Merge k Sorted Lists,Hard,Merge multiple linked lists.
+325,N Queens,Hard,Place queens safely.
+326,Sudoku Solver,Hard,Solve sudoku puzzle.
+327,Word Ladder,Hard,Shortest transformation sequence.
+328,Edit Distance,Hard,Minimum edit operations.
+329,LFU Cache,Hard,Design LFU cache.
+330,Serialize and Deserialize Binary Tree,Hard,Tree serialization.
+331,Two Sum,Easy,Find two numbers that add up to target.
+332,Valid Parentheses,Easy,Check balanced brackets.
+333,Binary Search,Easy,Search in sorted array.
+334,Merge Two Sorted Lists,Easy,Merge linked lists.
+335,Maximum Subarray,Easy,Find maximum sum subarray.
+336,Climbing Stairs,Easy,Count ways to climb stairs.
+337,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+338,Contains Duplicate,Easy,Check duplicates in array.
+339,Reverse Linked List,Easy,Reverse a linked list.
+340,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+341,Group Anagrams,Medium,Group words that are anagrams.
+342,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+343,3Sum,Medium,Find triplets that sum to zero.
+344,Container With Most Water,Medium,Find max water container.
+345,Merge Intervals,Medium,Merge overlapping intervals.
+346,Product of Array Except Self,Medium,Compute product except self.
+347,Search in Rotated Sorted Array,Medium,Search rotated array.
+348,Number of Islands,Medium,Count islands in grid.
+349,Coin Change,Medium,Minimum coins needed.
+350,Course Schedule,Medium,Check if courses can be finished.
+351,Trapping Rain Water,Hard,Calculate trapped rain water.
+352,Median of Two Sorted Arrays,Hard,Find median of sorted arrays.
+353,Regular Expression Matching,Hard,Regex pattern matching.
+354,Merge k Sorted Lists,Hard,Merge multiple linked lists.
+355,N Queens,Hard,Place queens safely.
+356,Sudoku Solver,Hard,Solve sudoku puzzle.
+357,Word Ladder,Hard,Shortest transformation sequence.
+358,Edit Distance,Hard,Minimum edit operations.
+359,LFU Cache,Hard,Design LFU cache.
+360,Serialize and Deserialize Binary Tree,Hard,Tree serialization.
+361,Two Sum,Easy,Find two numbers that add up to target.
+362,Valid Parentheses,Easy,Check balanced brackets.
+363,Binary Search,Easy,Search in sorted array.
+364,Merge Two Sorted Lists,Easy,Merge linked lists.
+365,Maximum Subarray,Easy,Find maximum sum subarray.
+366,Climbing Stairs,Easy,Count ways to climb stairs.
+367,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+368,Contains Duplicate,Easy,Check duplicates in array.
+369,Reverse Linked List,Easy,Reverse a linked list.
+370,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+371,Group Anagrams,Medium,Group words that are anagrams.
+372,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+373,3Sum,Medium,Find triplets that sum to zero.
+374,Container With Most Water,Medium,Find max water container.
+375,Merge Intervals,Medium,Merge overlapping intervals.
+376,Product of Array Except Self,Medium,Compute product except self.
+377,Search in Rotated Sorted Array,Medium,Search rotated array.
+378,Number of Islands,Medium,Count islands in grid.
+379,Coin Change,Medium,Minimum coins needed.
+380,Course Schedule,Medium,Check if courses can be finished.
+381,Trapping Rain Water,Hard,Calculate trapped rain water.
+382,Median of Two Sorted Arrays,Hard,Find median of sorted arrays.
+383,Regular Expression Matching,Hard,Regex pattern matching.
+384,Merge k Sorted Lists,Hard,Merge multiple linked lists.
+385,N Queens,Hard,Place queens safely.
+386,Sudoku Solver,Hard,Solve sudoku puzzle.
+387,Word Ladder,Hard,Shortest transformation sequence.
+388,Edit Distance,Hard,Minimum edit operations.
+389,LFU Cache,Hard,Design LFU cache.
+390,Serialize and Deserialize Binary Tree,Hard,Tree serialization.
+391,Two Sum,Easy,Find two numbers that add up to target.
+392,Valid Parentheses,Easy,Check balanced brackets.
+393,Binary Search,Easy,Search in sorted array.
+394,Merge Two Sorted Lists,Easy,Merge linked lists.
+395,Maximum Subarray,Easy,Find maximum sum subarray.
+396,Climbing Stairs,Easy,Count ways to climb stairs.
+397,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+398,Contains Duplicate,Easy,Check duplicates in array.
+399,Reverse Linked List,Easy,Reverse a linked list.
+400,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+401,Group Anagrams,Medium,Group words that are anagrams.
+402,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+403,3Sum,Medium,Find triplets that sum to zero.
+404,Container With Most Water,Medium,Find max water container.
+405,Merge Intervals,Medium,Merge overlapping intervals.
+406,Product of Array Except Self,Medium,Compute product except self.
+407,Search in Rotated Sorted Array,Medium,Search rotated array.
+408,Number of Islands,Medium,Count islands in grid.
+409,Coin Change,Medium,Minimum coins needed.
+410,Course Schedule,Medium,Check if courses can be finished.
+411,Trapping Rain Water,Hard,Calculate trapped rain water.
+412,Median of Two Sorted Arrays,Hard,Find median of sorted arrays.
+413,Regular Expression Matching,Hard,Regex pattern matching.
+414,Merge k Sorted Lists,Hard,Merge multiple linked lists.
+415,N Queens,Hard,Place queens safely.
+416,Sudoku Solver,Hard,Solve sudoku puzzle.
+417,Word Ladder,Hard,Shortest transformation sequence.
+418,Edit Distance,Hard,Minimum edit operations.
+419,LFU Cache,Hard,Design LFU cache.
+420,Serialize and Deserialize Binary Tree,Hard,Tree serialization.
+421,Two Sum,Easy,Find two numbers that add up to target.
+422,Valid Parentheses,Easy,Check balanced brackets.
+423,Binary Search,Easy,Search in sorted array.
+424,Merge Two Sorted Lists,Easy,Merge linked lists.
+425,Maximum Subarray,Easy,Find maximum sum subarray.
+426,Climbing Stairs,Easy,Count ways to climb stairs.
+427,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+428,Contains Duplicate,Easy,Check duplicates in array.
+429,Reverse Linked List,Easy,Reverse a linked list.
+430,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+431,Group Anagrams,Medium,Group words that are anagrams.
+432,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+433,3Sum,Medium,Find triplets that sum to zero.
+434,Container With Most Water,Medium,Find max water container.
+435,Merge Intervals,Medium,Merge overlapping intervals.
+436,Product of Array Except Self,Medium,Compute product except self.
+437,Search in Rotated Sorted Array,Medium,Search rotated array.
+438,Number of Islands,Medium,Count islands in grid.
+439,Coin Change,Medium,Minimum coins needed.
+440,Course Schedule,Medium,Check if courses can be finished.
+441,Trapping Rain Water,Hard,Calculate trapped rain water.
+442,Median of Two Sorted Arrays,Hard,Find median of sorted arrays.
+443,Regular Expression Matching,Hard,Regex pattern matching.
+444,Merge k Sorted Lists,Hard,Merge multiple linked lists.
+445,N Queens,Hard,Place queens safely.
+446,Sudoku Solver,Hard,Solve sudoku puzzle.
+447,Word Ladder,Hard,Shortest transformation sequence.
+448,Edit Distance,Hard,Minimum edit operations.
+449,LFU Cache,Hard,Design LFU cache.
+450,Serialize and Deserialize Binary Tree,Hard,Tree serialization.
+451,Two Sum,Easy,Find two numbers that add up to target.
+452,Valid Parentheses,Easy,Check balanced brackets.
+453,Binary Search,Easy,Search in sorted array.
+454,Merge Two Sorted Lists,Easy,Merge linked lists.
+455,Maximum Subarray,Easy,Find maximum sum subarray.
+456,Climbing Stairs,Easy,Count ways to climb stairs.
+457,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+458,Contains Duplicate,Easy,Check duplicates in array.
+459,Reverse Linked List,Easy,Reverse a linked list.
+460,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+461,Group Anagrams,Medium,Group words that are anagrams.
+462,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+463,3Sum,Medium,Find triplets that sum to zero.
+464,Container With Most Water,Medium,Find max water container.
+465,Merge Intervals,Medium,Merge overlapping intervals.
+466,Product of Array Except Self,Medium,Compute product except self.
+467,Search in Rotated Sorted Array,Medium,Search rotated array.
+468,Number of Islands,Medium,Count islands in grid.
+469,Coin Change,Medium,Minimum coins needed.
+470,Course Schedule,Medium,Check if courses can be finished.
+471,Trapping Rain Water,Hard,Calculate trapped rain water.
+472,Median of Two Sorted Arrays,Hard,Find median of sorted arrays.
+473,Regular Expression Matching,Hard,Regex pattern matching.
+474,Merge k Sorted Lists,Hard,Merge multiple linked lists.
+475,N Queens,Hard,Place queens safely.
+476,Sudoku Solver,Hard,Solve sudoku puzzle.
+477,Word Ladder,Hard,Shortest transformation sequence.
+478,Edit Distance,Hard,Minimum edit operations.
+479,LFU Cache,Hard,Design LFU cache.
+480,Serialize and Deserialize Binary Tree,Hard,Tree serialization.
+481,Two Sum,Easy,Find two numbers that add up to target.
+482,Valid Parentheses,Easy,Check balanced brackets.
+483,Binary Search,Easy,Search in sorted array.
+484,Merge Two Sorted Lists,Easy,Merge linked lists.
+485,Maximum Subarray,Easy,Find maximum sum subarray.
+486,Climbing Stairs,Easy,Count ways to climb stairs.
+487,Best Time to Buy and Sell Stock,Easy,Max profit from stock prices.
+488,Contains Duplicate,Easy,Check duplicates in array.
+489,Reverse Linked List,Easy,Reverse a linked list.
+490,Remove Duplicates from Sorted Array,Easy,Remove duplicates in array.
+491,Group Anagrams,Medium,Group words that are anagrams.
+492,Longest Substring Without Repeating Characters,Medium,Find longest unique substring.
+493,3Sum,Medium,Find triplets that sum to zero.
+494,Container With Most Water,Medium,Find max water container.
+495,Merge Intervals,Medium,Merge overlapping intervals.
+496,Product of Array Except Self,Medium,Compute product except self.
+497,Search in Rotated Sorted Array,Medium,Search rotated array.
+498,Number of Islands,Medium,Count islands in grid.
+499,Coin Change,Medium,Minimum coins needed.
+500,Course Schedule,Medium,Check if courses can be finished.

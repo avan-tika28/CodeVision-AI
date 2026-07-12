@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favorites</title>
+</head>
+<body style="background:#0b1120;color:white;font-family:Segoe UI;padding:30px;">
+
+<h1>⭐ Favorite Problems</h1>
+
+{% if problems %}
+
+{% for problem in problems %}
+
+<div style="background:#111827;padding:20px;margin:20px;border-radius:10px;">
+
+<h2>{{ problem[1] }}</h2>
+
+<p>{{ problem[2] }}</p>
+
+<p>{{ problem[3] }}</p>
+
+</div>
+
+{% endfor %}
+
+{% else %}
+
+<h2>No favorite problems yet.</h2>
+
+{% endif %}
+
+</body>
+</html>

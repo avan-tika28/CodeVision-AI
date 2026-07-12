@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>AI Hint</title>
+
+
+<style>
+    body{
+        background:#0f172a;
+        color:white;
+        font-family:Arial,sans-serif;
+        text-align:center;
+        padding:50px;
+    }
+
+    .card{
+        background:#1e293b;
+        width:650px;
+        margin:auto;
+        padding:30px;
+        border-radius:20px;
+        box-shadow:0 0 20px rgba(0,0,0,0.4);
+    }
+
+    h1{
+        color:#38bdf8;
+    }
+
+    h2{
+        color:#22c55e;
+    }
+
+    p{
+        font-size:18px;
+        line-height:1.8;
+    }
+
+    .hint{
+        background:#334155;
+        padding:20px;
+        border-radius:15px;
+        margin-top:20px;
+    }
+
+    .back-btn{
+        display:inline-block;
+        margin-top:25px;
+        padding:12px 20px;
+        background:#3b82f6;
+        color:white;
+        text-decoration:none;
+        border-radius:10px;
+        font-weight:bold;
+    }
+</style>
+
+
+</head>
+
+<body>
+
+<div class="card">
+
+
+<h1>🤖 CodeVision AI Hint</h1>
+
+<h2>{{ problem[1] }}</h2>
+
+<p><b>Difficulty:</b> {{ problem[2] }}</p>
+
+<p><b>Description:</b></p>
+
+<p>{{ problem[3] }}</p>
+
+<div class="hint">
+
+    <h2>💡 AI Hint</h2>
+
+    <p>{{ hint }}</p>
+
+</div>
+
+<a href="/problems" class="back-btn">
+    ⬅ Back to Problems
+</a>
+
+
+</div>
+
+</body>
+</html>

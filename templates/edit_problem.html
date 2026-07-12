@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Edit Problem</title>
+
+
+<style>
+    body{
+        background:#0f172a;
+        color:white;
+        font-family:Arial,sans-serif;
+        text-align:center;
+        padding-top:80px;
+    }
+
+    .box{
+        background:#1e293b;
+        width:400px;
+        margin:auto;
+        padding:30px;
+        border-radius:15px;
+    }
+
+    input{
+        width:90%;
+        padding:10px;
+        margin:10px;
+        border:none;
+        border-radius:8px;
+    }
+
+    button{
+        background:orange;
+        color:white;
+        border:none;
+        padding:12px 20px;
+        border-radius:8px;
+        cursor:pointer;
+    }
+</style>
+
+
+</head>
+
+<body>
+
+<div class="box">
+
+
+<h1>✏️ Edit Problem</h1>
+
+<form method="POST">
+
+    <input type="text"
+           name="title"
+           value="{{ problem[1] }}"
+           required>
+
+    <input type="text"
+           name="difficulty"
+           value="{{ problem[2] }}"
+           required>
+
+    <br><br>
+
+    <button type="submit">
+        Save Changes
+    </button>
+
+</form>
+
+
+</div>
+
+</body>
+</html>

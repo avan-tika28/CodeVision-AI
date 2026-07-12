@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Problem</title>
+
+    <style>
+        body{
+            background:black;
+            color:white;
+            font-family:Arial,sans-serif;
+            text-align:center;
+        }
+
+        form{
+            margin-top:50px;
+        }
+
+        input, textarea{
+            width:300px;
+            padding:10px;
+            margin:10px;
+            border-radius:8px;
+        }
+
+        button{
+            padding:10px 20px;
+            border:none;
+            border-radius:8px;
+            background:#00ffcc;
+            font-weight:bold;
+            cursor:pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>➕ Add Problem</h1>
+
+    <form method="POST">
+
+        <input type="text"
+               name="title"
+               placeholder="Problem Name"
+               required>
+
+        <br>
+
+        <input type="text"
+               name="difficulty"
+               placeholder="Difficulty"
+               required>
+
+        <br>
+
+        <textarea
+            name="description"
+            placeholder="Problem Description"
+            rows="5"
+            required></textarea>
+
+        <br>
+
+        <button type="submit">
+            Add Problem
+        </button>
+
+    </form>
+
+</body>
+</html>

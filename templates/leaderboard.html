@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaderboard</title>
+
+    <style>
+        body{
+            background:#0b1120;
+            color:white;
+            font-family:Segoe UI;
+            padding:30px;
+        }
+
+        h1{
+            text-align:center;
+            color:#38bdf8;
+        }
+
+        table{
+            width:80%;
+            margin:auto;
+            border-collapse:collapse;
+            background:#111827;
+            border-radius:15px;
+            overflow:hidden;
+        }
+
+        th,td{
+            padding:15px;
+            text-align:center;
+        }
+
+        th{
+            background:#2563eb;
+        }
+
+        tr:nth-child(even){
+            background:#1e293b;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<h1>🏆 Leaderboard</h1>
+
+<table>
+<tr>
+    <th>🏅 Rank</th>
+    <th>👤 Username</th>
+    <th>✅ Solved</th>
+    <th>⭐ Favorites</th>
+</tr>
+
+{% for user in users %}
+
+<tr>
+    <td>{{ loop.index }}</td>
+    <td>{{ user[0] }}</td>
+    <td>{{ user[1] }}</td>
+    <td>{{ user[2] }}</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+</body>
+</html>

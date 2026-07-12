@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Statistics</title>
+
+<style>
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial,sans-serif;
+    text-align:center;
+}
+
+.card{
+    width:600px;
+    margin:40px auto;
+    background:#1e293b;
+    padding:30px;
+    border-radius:20px;
+}
+
+table{
+    width:100%;
+    font-size:22px;
+}
+
+td{
+    padding:15px;
+}
+
+a{
+    color:white;
+    background:#2563eb;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>📊 Coding Statistics</h1>
+
+<table>
+
+<tr>
+<td>💻 Total Problems</td>
+<td>{{ total }}</td>
+</tr>
+
+<tr>
+<td>✅ Solved</td>
+<td>{{ solved }}</td>
+</tr>
+
+<tr>
+<td>❌ Remaining</td>
+<td>{{ remaining }}</td>
+</tr>
+
+<tr>
+<td>🟢 Easy</td>
+<td>{{ easy }}</td>
+</tr>
+
+<tr>
+<td>🟡 Medium</td>
+<td>{{ medium }}</td>
+</tr>
+
+<tr>
+<td>🔴 Hard</td>
+<td>{{ hard }}</td>
+</tr>
+
+<tr>
+<td>🏆 Badge</td>
+<td>{{ badge }}</td>
+</tr>
+
+</table>
+
+<br>
+
+<a href="/dashboard">⬅ Dashboard</a>
+
+</div>
+
+</body>
+</html>

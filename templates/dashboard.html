@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CodeVision AI Dashboard</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#090d1f;
+color:white;
+overflow-x:hidden;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+
+width:95%;
+
+margin:20px auto;
+
+padding:15px 25px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+background:#111827;
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.4);
+
+}
+
+.logo{
+
+font-size:36px;
+
+font-weight:bold;
+
+color:#4cc3ff;
+
+}
+
+.logo span{
+
+color:white;
+
+}
+
+.menu{
+
+display:flex;
+
+gap:25px;
+
+align-items:center;
+
+}
+
+.menu a{
+
+text-decoration:none;
+
+color:white;
+
+font-size:17px;
+
+font-weight:600;
+
+padding:12px 18px;
+
+border-radius:12px;
+
+transition:.3s;
+
+}
+
+.menu a:hover{
+
+background:#6d4aff;
+
+}
+
+.profile{
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+}
+
+.profile-circle{
+
+width:42px;
+
+height:42px;
+
+border-radius:50%;
+
+background:#7c3aed;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-weight:bold;
+
+font-size:20px;
+
+}
+
+.profile-name{
+
+font-weight:bold;
+
+}
+
+/* ================= HERO ================= */
+
+.hero{
+
+width:95%;
+
+margin:40px auto;
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+align-items:center;
+
+gap:40px;
+
+}
+
+.hero-left h2{
+
+font-size:55px;
+
+line-height:1.2;
+
+}
+
+.hero-left h2 span{
+
+color:#4cc3ff;
+
+}
+
+.hero-left p{
+
+margin-top:25px;
+
+font-size:22px;
+
+color:#b6bfd5;
+
+line-height:1.6;
+
+}
+
+.hero-btn{
+
+display:inline-block;
+
+margin-top:35px;
+
+padding:16px 28px;
+
+border-radius:14px;
+
+background:linear-gradient(90deg,#8b5cf6,#3b82f6);
+
+color:white;
+
+text-decoration:none;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.hero-btn:hover{
+
+transform:translateY(-5px);
+
+}
+
+.hero-right{
+
+display:flex;
+
+justify-content:center;
+
+}
+
+.hero-right img{
+
+width:90%;
+
+max-width:500px;
+
+}
+
+/* ================= CARDS ================= */
+
+.cards{
+
+width:95%;
+
+margin:40px auto;
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:25px;
+
+}
+
+.card{
+
+background:#111827;
+
+padding:30px;
+
+border-radius:22px;
+
+box-shadow:0 12px 25px rgba(0,0,0,.4);
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.card h3{
+
+font-size:22px;
+
+margin-bottom:20px;
+
+}
+
+.card h1{
+
+font-size:48px;
+
+margin-bottom:10px;
+
+}
+
+.card p{
+
+color:#b9c2d9;
+
+}
+
+.blue{
+
+border-bottom:5px solid #3b82f6;
+
+}
+
+.green{
+
+border-bottom:5px solid #22c55e;
+
+}
+
+.purple{
+
+border-bottom:5px solid #9333ea;
+
+}
+
+.orange{
+
+border-bottom:5px solid #f59e0b;
+
+}
+/* ================= CHART SECTION ================= */
+
+.dashboard-row{
+
+width:95%;
+
+margin:40px auto;
+
+display:grid;
+
+grid-template-columns:2fr 1fr;
+
+gap:25px;
+
+}
+
+.chart-card{
+
+background:#111827;
+
+padding:30px;
+
+border-radius:22px;
+
+box-shadow:0 12px 25px rgba(0,0,0,.4);
+
+}
+
+.chart-card h2{
+
+margin-bottom:20px;
+
+color:#4cc3ff;
+
+}
+
+.chart-card img{
+
+width:100%;
+
+border-radius:15px;
+
+}
+
+.rank-card{
+
+background:#111827;
+
+padding:30px;
+
+border-radius:22px;
+
+text-align:center;
+
+box-shadow:0 12px 25px rgba(0,0,0,.4);
+
+}
+
+.rank-number{
+
+font-size:70px;
+
+font-weight:bold;
+
+color:#4cc3ff;
+
+margin:20px 0;
+
+}
+
+.rank-card p{
+
+color:#b9c2d9;
+
+font-size:18px;
+
+}
+/* ================= QUICK ACTIONS ================= */
+
+.quick-title{
+
+width:95%;
+
+margin:40px auto 20px;
+
+font-size:32px;
+
+color:#4cc3ff;
+
+}
+
+.quick-grid{
+
+width:95%;
+
+margin:auto;
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:25px;
+
+}
+
+.quick-card{
+
+background:#111827;
+
+padding:30px;
+
+border-radius:22px;
+
+text-align:center;
+
+text-decoration:none;
+
+color:white;
+
+transition:.3s;
+
+box-shadow:0 12px 25px rgba(0,0,0,.4);
+
+}
+
+.quick-card:hover{
+
+transform:translateY(-10px);
+
+background:#1e293b;
+
+}
+
+.quick-card .icon{
+
+font-size:55px;
+
+margin-bottom:20px;
+
+}
+
+.quick-card h3{
+
+font-size:22px;
+
+margin-bottom:10px;
+
+}
+
+.quick-card p{
+
+color:#b9c2d9;
+
+font-size:15px;
+
+}
+/* ================= RECENT SECTION ================= */
+
+.recent-section{
+
+width:95%;
+
+margin:50px auto;
+
+display:grid;
+
+grid-template-columns:2fr 1fr;
+
+gap:25px;
+
+}
+
+.recent-card{
+
+background:#111827;
+
+padding:30px;
+
+border-radius:22px;
+
+box-shadow:0 12px 25px rgba(0,0,0,.4);
+
+}
+
+.recent-card h2{
+
+color:#4cc3ff;
+
+margin-bottom:20px;
+
+}
+
+.recent-table{
+
+width:100%;
+
+border-collapse:collapse;
+
+}
+
+.recent-table th{
+
+padding:15px;
+
+text-align:left;
+
+color:#4cc3ff;
+
+border-bottom:1px solid rgba(255,255,255,.15);
+
+}
+
+.recent-table td{
+
+padding:15px;
+
+border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.streak-card{
+
+background:#111827;
+
+padding:30px;
+
+border-radius:22px;
+
+text-align:center;
+
+box-shadow:0 12px 25px rgba(0,0,0,.4);
+
+}
+
+.streak-number{
+
+font-size:65px;
+
+font-weight:bold;
+
+color:#22c55e;
+
+margin:25px 0;
+
+}
+
+.streak-card p{
+
+color:#b9c2d9;
+
+}
+/* ================= FOOTER ================= */
+
+.footer{
+
+width:95%;
+
+margin:50px auto 30px;
+
+background:#111827;
+
+padding:25px 40px;
+
+border-radius:22px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+box-shadow:0 12px 25px rgba(0,0,0,.4);
+
+}
+
+.footer h2{
+
+color:#4cc3ff;
+
+margin-bottom:8px;
+
+}
+
+.footer p{
+
+color:#b9c2d9;
+
+}
+
+.footer-right{
+
+text-align:right;
+
+color:#b9c2d9;
+
+}
+
+/* ================= ANIMATIONS ================= */
+
+.card,
+.chart-card,
+.rank-card,
+.quick-card,
+.recent-card,
+.streak-card{
+
+animation:fadeUp .8s ease;
+
+}
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(30px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+.card:hover,
+.chart-card:hover,
+.rank-card:hover,
+.recent-card:hover,
+.streak-card:hover{
+
+transform:translateY(-10px);
+
+transition:.3s;
+
+box-shadow:0 18px 35px rgba(76,195,255,.25);
+
+}
+</style>
+
+</head>
+
+<body>
+    <!-- ================= NAVBAR ================= -->
+
+<div class="navbar">
+
+    <div class="logo">
+        🚀 <span>CodeVision</span> AI
+    </div>
+
+<div class="menu">
+
+    <a href="/dashboard">🏠 Dashboard</a>
+
+    <a href="/problems">💻 Problems</a>
+
+    <a href="/leaderboard">🏆 Leaderboard</a>
+
+    <a href="/profile">👤 Profile</a>
+
+    <a href="/logout">🚪 Logout</a>
+
+</div>
+
+    <div class="profile">
+
+        <div class="profile-circle">
+            {{ username[0] }}
+        </div>
+
+        <div class="profile-name">
+            {{ username }}
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ================= HERO ================= -->
+
+<div class="hero">
+
+    <div class="hero-left">
+
+        <h2>
+            👋 Welcome Back,<br>
+            <span>{{ username }}</span>
+        </h2>
+
+        <p>
+            Track your progress, solve problems and become a better developer every day.
+        </p>
+
+        <a href="/problems" class="hero-btn">
+            🔥 Keep Coding, Keep Growing!
+        </a>
+
+    </div>
+
+    <div class="hero-right">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png">
+
+    </div>
+
+</div>
+<!-- ================= STATISTICS ================= -->
+
+<div class="cards">
+
+    <div class="card blue">
+
+        <h3>💻 Total Problems</h3>
+
+        <h1>{{ total }}</h1>
+
+        <p>All coding problems</p>
+
+    </div>
+
+    <div class="card green">
+
+        <h3>✅ Solved Problems</h3>
+
+        <h1>{{ solved }}</h1>
+
+        <p>Keep it up! 🎉</p>
+
+    </div>
+
+    <div class="card purple">
+
+        <h3>📈 Progress</h3>
+
+        <h1>{{ progress }}%</h1>
+
+        <p>Great Progress 🚀</p>
+
+    </div>
+
+    <div class="card orange">
+
+        <h3>🏅 Achievement Badge</h3>
+
+        <h1 style="font-size:28px;">{{ badge }}</h1>
+
+        <p>Keep solving to upgrade!</p>
+
+    </div>
+
+</div>
+<!-- ================= CHART & RANK ================= -->
+
+<div class="dashboard-row">
+
+    <div class="chart-card">
+
+        <h2>📊 Progress Overview</h2>
+
+        <img src="{{ url_for('static', filename='charts/progress.png') }}" alt="Progress Chart">
+
+    </div>
+
+    <div class="rank-card">
+
+        <h2>🏆 Your Rank</h2>
+
+        <div class="rank-number">#15</div>
+
+        <p>Top Coder</p>
+
+        <br>
+
+        <h2>{{ badge }}</h2>
+
+    </div>
+
+</div>
+<!-- ================= QUICK ACTIONS ================= -->
+
+<h2 class="quick-title">⚡ Quick Actions</h2>
+
+<div class="quick-grid">
+
+    <a href="/problems" class="quick-card">
+
+        <div class="icon">💻</div>
+
+        <h3>Problems</h3>
+
+        <p>Solve coding questions</p>
+
+    </a>
+
+    <a href="/progress" class="quick-card">
+
+        <div class="icon">📈</div>
+
+        <h3>Progress</h3>
+
+        <p>View your coding progress</p>
+
+    </a>
+
+    <a href="/leaderboard" class="quick-card">
+
+        <div class="icon">🏆</div>
+
+        <h3>Leaderboard</h3>
+
+        <p>Check your rank</p>
+
+    </a>
+
+    <a href="/profile" class="quick-card">
+
+        <div class="icon">👤</div>
+
+        <h3>Profile</h3>
+
+        <p>Manage your account</p>
+
+    </a>
+    <a href="/favorites" class="quick-card">
+
+    <div class="icon">⭐</div>
+
+    <h3>Favorites</h3>
+
+    <p>View favorite problems</p>
+
+</a>
+
+</div>
+<!-- ================= RECENT PROBLEMS ================= -->
+
+<div class="recent-section">
+
+<div class="recent-card">
+
+<h2>📋 Recent Problems</h2>
+
+<table class="recent-table">
+
+<tr>
+
+<th>Problem</th>
+
+<th>Status</th>
+
+</tr>
+
+<tr>
+
+<td>Two Sum</td>
+
+<td>✅ Solved</td>
+
+</tr>
+
+<tr>
+
+<td>Maximum Subarray</td>
+
+<td>⭐ Favorite</td>
+
+</tr>
+
+<tr>
+
+<td>Group Anagrams</td>
+
+<td>⏳ Pending</td>
+
+</tr>
+
+<tr>
+
+<td>Course Schedule</td>
+
+<td>✅ Solved</td>
+
+</tr>
+
+</table>
+
+</div>
+
+<div class="streak-card">
+
+<h2>🔥 Coding Streak</h2>
+
+<div class="streak-number">
+
+7
+
+</div>
+
+<p>
+
+Keep solving every day!
+
+</p>
+
+<br>
+
+<h2>❤️ Favorites</h2>
+<h1>{{ favorites }}</h1>
+
+</div>
+
+</div>
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+<div>
+
+<h2>🚀 CodeVision AI</h2>
+
+<p>Track • Practice • Improve</p>
+
+</div>
+
+<div class="footer-right">
+
+<p>Built with ❤️ using</p>
+
+<p>Flask • HTML • CSS • SQLite</p>
+
+</div>
+
+</footer>
+
+</body>
+
+</html>
