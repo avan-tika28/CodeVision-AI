@@ -34,45 +34,25 @@ A modern **Coding Practice Platform** built using **Flask**, **SQLite**, **HTML*
 | JavaScript | Jinja2 | |
 
 ---
+## 📸 Project Screenshots
 
-# 📸 Project Screenshots
-
-## 🔐 Login Page
-
+### 🔐 Login
 ![Login](screenshots/login.png)
 
----
-
-## 🏠 Dashboard
-
+### 🏠 Dashboard
 ![Dashboard](screenshots/dashboard.png)
 
----
+### 💻 Problems
+![Problems](screenshots/problem.png)
 
-## 💻 Problems Page
-
-![Problems](screenshots/problems.png)
-
----
-
-## ▶️ Solve Problem
-
+### ▶️ Solve Problem
 ![Solve](screenshots/solve.png)
 
----
+### ⭐ Favorites
+![Favorites](screenshots/favorite.png)
 
-## 🏆 Leaderboard
-
-![Leaderboard](screenshots/leaderboard.png)
-
----
-
-## 👤 Profile
-
+### 👤 Profile
 ![Profile](screenshots/profile.png)
-
----
-
 # 📂 Project Structure
 
 ```text
