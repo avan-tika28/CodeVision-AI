@@ -1,100 +1,122 @@
 # 🚀 CodeVision-AI
 
-A modern **Coding Practice Platform** built using **Flask**, **SQLite**, **HTML**, **CSS**, and **JavaScript**. This platform helps users practice coding problems, track their progress, receive AI hints, and improve their problem-solving skills.
+A modern AI-powered coding practice platform inspired by LeetCode. CodeVision-AI helps users practice coding problems, track progress, view statistics, earn achievements, and improve problem-solving skills through an intuitive dashboard.
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-- 🔐 User Registration & Login
-- 🚪 Logout
-- 🏠 Dashboard
-- 💻 200 Coding Problems
-- 🔍 Search Problems
-- 🎯 Difficulty Filter (Easy, Medium, Hard)
-- 📄 Pagination
-- ▶️ Run Python Code
-- ✅ Submit Solutions
-- 🤖 AI Hint
-- ⭐ Favorite Problems
+- 🔐 User Authentication (Login & Signup)
+- 🏠 Interactive Dashboard
+- 📚 Coding Problems Library
+- ❤️ Favorite Problems
+- 👤 User Profile
 - 📊 Progress Tracking
 - 🏆 Leaderboard
-- 👤 User Profile
-- ✏️ Edit Problems
-- 🗑️ Delete Problems
+- 🎖️ Achievement Badges
+- 📈 Coding Statistics
+- 🗄️ SQLite Database Integration
+- 🎨 Modern Responsive UI
 
 ---
 
-# 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-| Frontend | Backend | Database |
-|----------|----------|----------|
-| HTML5 | Python | SQLite |
-| CSS3 | Flask | SQLite3 |
-| JavaScript | Jinja2 | |
+**Frontend**
+- HTML5
+- CSS3
+- JavaScript
+
+**Backend**
+- Python
+- Flask
+
+**Database**
+- SQLite
 
 ---
-## 📸 Project Screenshots
 
-### 🔐 Login
-![Login](screenshots/login.png)
+## 📂 Project Structure
 
-### 🏠 Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### 💻 Problems
-![Problems](screenshots/problem.png)
-
-### ▶️ Solve Problem
-![Solve](screenshots/solve.png)
-
-### ⭐ Favorites
-![Favorites](screenshots/favorite.png)
-
-### 👤 Profile
-![Profile](screenshots/profile.png)
-# 📂 Project Structure
-
-```text
+```
 CodeVision-AI/
 │
+├── templates/
+├── static/
 ├── app.py
 ├── database.db
+├── requirements.txt
 ├── README.md
-├── static/
-├── templates/
-├── screenshots/
-│   ├── login.png
-│   ├── dashboard.png
-│   ├── problems.png
-│   ├── solve.png
-│   ├── leaderboard.png
-│   └── profile.png
+└── screenshots
 ```
 
 ---
 
-# ▶️ How to Run
+## 📸 Screenshots
 
-### 1. Clone the Repository
+### 🔐 Login Page
+
+![Login](login.png)
+
+---
+
+### 🏠 Dashboard
+
+![Dashboard](dashboard.png)
+
+---
+
+### 📚 Problems Page
+
+![Problems](problems.png)
+
+---
+
+### ❤️ Favorites
+
+![Favorites](favorites.png)
+
+---
+
+### 👤 Profile
+
+![Profile](profile.png)
+
+---
+
+### ✅ Solve Problem
+
+![Solve](slove.png)
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
 
 ```bash
 git clone https://github.com/avan-tika28/CodeVision-AI.git
 ```
 
-### 2. Install Flask
+Go to the project directory
 
 ```bash
-pip install flask
+cd CodeVision-AI
 ```
 
-### 3. Run the Application
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the project
 
 ```bash
 python app.py
 ```
 
-### 4. Open in Browser
+Open your browser
 
 ```
 http://127.0.0.1:5000
@@ -102,25 +124,27 @@ http://127.0.0.1:5000
 
 ---
 
-# 🎯 Future Enhancements
+## 🌟 Future Improvements
 
-- Online Code Execution
-- Coding Contests
-- User Rankings
-- Discussion Forum
-- Multiple Programming Languages
-- Admin Dashboard
+- AI Coding Assistant
+- Online Code Compiler
+- Contest Mode
+- Daily Coding Challenges
+- Difficulty Recommendation System
+- Dark & Light Theme
 
 ---
 
-# 👩‍💻 Developer
+## 👩‍💻 Developer
 
 **Avantika R**
 
-**B.Tech – Artificial Intelligence & Data Science**
+B.Tech Artificial Intelligence & Data Science
 
-Chennai Institute of Technology
+GitHub: https://github.com/avan-tika28
 
 ---
 
-## ⭐ If you like this project, don't forget to star this repository!
+## ⭐ Support
+
+If you like this project, don't forget to ⭐ the repository.
