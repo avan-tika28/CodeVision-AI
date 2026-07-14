@@ -1,12 +1,12 @@
 # 🚀 CodeVision-AI
 
-CodeVision-AI is an AI-powered coding practice platform inspired by LeetCode. It helps users practice coding problems, track their progress, save favorite problems, earn achievements, and improve their programming skills through an interactive and user-friendly interface.
+An AI-powered coding practice platform inspired by LeetCode. CodeVision-AI helps users practice coding, track their progress, earn achievements, and improve their problem-solving skills through a clean and interactive interface.
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-- 🔐 User Authentication (Login & Registration)
+- 🔐 User Login & Registration
 - 🏠 Interactive Dashboard
 - 📚 Coding Problems Collection
 - ❤️ Favorite Problems
@@ -16,80 +16,89 @@ CodeVision-AI is an AI-powered coding practice platform inspired by LeetCode. It
 - 🎖️ Achievement Badges
 - 📊 Coding Statistics
 - 💾 SQLite Database
-- 🎨 Responsive User Interface
+- 🎨 Modern Responsive UI
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
-### Frontend
+## Frontend
 - HTML5
 - CSS3
 - JavaScript
 
-### Backend
+## Backend
 - Python
 - Flask
 
-### Database
+## Database
 - SQLite
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 CodeVision-AI/
 │
+├── screenshots/
+│   ├── login.png
+│   ├── dashboard.png
+│   ├── problems.png
+│   ├── favorites.png
+│   ├── profile.png
+│   └── solve.png
+│
 ├── static/
 ├── templates/
+├── data/
 ├── app.py
-├── database.db
 ├── requirements.txt
+├── database.db
 └── README.md
 ```
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-### 🔐 Login Page
+## 🔐 Login Page
 
-![Login](login.png)
-
----
-
-### 🏠 Dashboard
-
-![Dashboard](dashboard.png)
+![Login Page](screenshots/login.png)
 
 ---
 
-### 📚 Problems Page
+## 🏠 Dashboard
 
-![Problems](problems.png)
-
----
-
-### ❤️ Favorite Problems
-
-![Favorites](favorites.png)
+![Dashboard](screenshots/dashboard.png)
 
 ---
 
-### 👤 Profile Page
+## 📚 Problems Page
 
-![Profile](profile.png)
-
----
-
-### ✅ Solve Problem
-
-![Solve](solve.png)
+![Problems](screenshots/problems.png)
 
 ---
 
-## ⚙️ Installation
+## ❤️ Favorite Problems
+
+![Favorites](screenshots/favorites.png)
+
+---
+
+## 👤 Profile
+
+![Profile](screenshots/profile.png)
+
+---
+
+## ✅ Solve Problem
+
+![Solve Problem](screenshots/solve.png)
+
+---
+
+# ⚙️ Installation
 
 ### 1. Clone the Repository
 
@@ -123,36 +132,36 @@ http://127.0.0.1:5000
 
 ---
 
-## 🎯 Future Enhancements
+# 🎯 Future Enhancements
 
 - 🤖 AI Coding Assistant
 - 💻 Online Code Compiler
 - 🏅 Daily Coding Challenges
-- 📈 Personalized Learning Recommendations
 - 🌙 Dark Mode
 - 👥 Coding Contest Mode
-- 📱 Mobile Responsive Design
+- 📈 Personalized Learning Recommendations
 
 ---
 
-## 👩‍💻 Developer
+# 👩‍💻 Developer
 
 **Avantika R**
 
-B.Tech – Artificial Intelligence & Data Science
+**B.Tech – Artificial Intelligence & Data Science**
 
-GitHub: https://github.com/avan-tika28
-
----
-
-## 📜 License
-
-This project was developed for educational and learning purposes.
+GitHub Profile:
+https://github.com/avan-tika28
 
 ---
 
-## ⭐ Support
+# 📜 License
 
-If you found this project helpful, please consider giving it a ⭐ on GitHub.
+This project is created for educational and learning purposes.
 
-Your support motivates me to build more useful and exciting projects!
+---
+
+# ⭐ Support
+
+If you like this project, don't forget to ⭐ star the repository.
+
+It motivates me to build more exciting projects!
