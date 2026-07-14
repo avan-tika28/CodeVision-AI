@@ -1,12 +1,12 @@
 # 🚀 CodeVision-AI
 
-An AI-powered coding practice platform inspired by LeetCode. CodeVision-AI helps users solve coding problems, track their progress, earn achievements, and improve their programming skills through an interactive and user-friendly interface.
+CodeVision-AI is an AI-powered coding practice platform inspired by LeetCode. It helps users practice coding problems, track their progress, save favorite problems, earn achievements, and improve their programming skills through an interactive and user-friendly interface.
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-- 🔐 User Login & Registration
+- 🔐 User Authentication (Login & Registration)
 - 🏠 Interactive Dashboard
 - 📚 Coding Problems Collection
 - ❤️ Favorite Problems
@@ -16,11 +16,11 @@ An AI-powered coding practice platform inspired by LeetCode. CodeVision-AI helps
 - 🎖️ Achievement Badges
 - 📊 Coding Statistics
 - 💾 SQLite Database
-- 🎨 Modern Responsive User Interface
+- 🎨 Responsive User Interface
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 - HTML5
@@ -36,86 +36,86 @@ An AI-powered coding practice platform inspired by LeetCode. CodeVision-AI helps
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 CodeVision-AI/
 │
-├── templates/
 ├── static/
+├── templates/
 ├── app.py
 ├── database.db
 ├── requirements.txt
-├── README.md
+└── README.md
 ```
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
-## 🔐 Login Page
+### 🔐 Login Page
 
 ![Login](login.png)
 
 ---
 
-## 🏠 Dashboard
+### 🏠 Dashboard
 
 ![Dashboard](dashboard.png)
 
 ---
 
-## 📚 Problems Page
+### 📚 Problems Page
 
 ![Problems](problems.png)
 
 ---
 
-## ❤️ Favorite Problems
+### ❤️ Favorite Problems
 
 ![Favorites](favorites.png)
 
 ---
 
-## 👤 Profile Page
+### 👤 Profile Page
 
 ![Profile](profile.png)
 
 ---
 
-## ✅ Solve Problem
+### ✅ Solve Problem
 
-![Solve](slove.png)
+![Solve](solve.png)
 
 ---
 
-# ⚙️ Installation
+## ⚙️ Installation
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/avan-tika28/CodeVision-AI.git
 ```
 
-### 2️⃣ Navigate to the Project Folder
+### 2. Navigate to the Project Folder
 
 ```bash
 cd CodeVision-AI
 ```
 
-### 3️⃣ Install Required Packages
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run the Application
+### 4. Run the Application
 
 ```bash
 python app.py
 ```
 
-### 5️⃣ Open in Browser
+### 5. Open Your Browser
 
 ```
 http://127.0.0.1:5000
@@ -123,35 +123,36 @@ http://127.0.0.1:5000
 
 ---
 
-# 🎯 Future Enhancements
+## 🎯 Future Enhancements
 
 - 🤖 AI Coding Assistant
 - 💻 Online Code Compiler
 - 🏅 Daily Coding Challenges
-- 📈 Personalized Recommendations
-- 🌙 Dark Mode Support
+- 📈 Personalized Learning Recommendations
+- 🌙 Dark Mode
 - 👥 Coding Contest Mode
+- 📱 Mobile Responsive Design
 
 ---
 
-# 👩‍💻 Developer
+## 👩‍💻 Developer
 
 **Avantika R**
 
-B.Tech Artificial Intelligence & Data Science
+B.Tech – Artificial Intelligence & Data Science
 
 GitHub: https://github.com/avan-tika28
 
 ---
 
-# 📜 License
+## 📜 License
 
-This project is developed for educational and learning purposes.
+This project was developed for educational and learning purposes.
 
 ---
 
-# ⭐ Show Your Support
+## ⭐ Support
 
-If you found this project useful, please consider giving it a ⭐ on GitHub.
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
 
-It motivates me to build more exciting projects!
+Your support motivates me to build more useful and exciting projects!
